@@ -51,7 +51,7 @@ $.ajax({
   // Looping through each result item
   for (var i = 0; i < results.length; i++) {
       var giphyDiv = $('<div>');
-          giphyDiv.addClass('col-md-4 giphyDiv')
+          giphyDiv.addClass('col-md-3 giphyDiv')
       var p = $('<p>').text('Rating: ' + results[i].rating);
       var giphyImage = $('<img>');
           giphyImage.attr({'src': results[i].images.original_still.url, 'data-still': results[i].images.original_still.url, 'data-animate': results[i].images.original.url, 'data-state': 'still'});
