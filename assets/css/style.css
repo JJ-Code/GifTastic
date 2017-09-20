@@ -12,7 +12,7 @@
 }
 
 #search-area {
-  text-align: right !important;
+  text-align: centert !important;
 }
 
 .giphy {
@@ -47,4 +47,12 @@ p {
   font-size: 18px !important;
   color: #4aaaa5 !important;
 
+}
+
+#buttons-view {
+  text-align: center !important;
+}
+
+#giphy-view {
+  text-align: center !important;  
 }

@@ -17,7 +17,15 @@
   <div class="container">
       <div class="jumbotron">
       <h1 class="display-3">GifTastic</h1>
-      <p id="lead">Search for your favoriate Giphy. Click on Giphy to animate.</p>
+      <p id="lead">Search for your favoriate Giphy. Click to animate.</p>
+      <div id="search-area">
+        <form id="giphy-form">
+          <label for="giphy-input">Add a new giphy button</label> <br>
+          <input type="text" id="giphy-input"><br> <br>
+          <!-- Button triggers new giphy to be added -->
+          <input id="add-giphy" type="submit" value="Submit">
+        </form>
+      </div>
 
     </div>
 
@@ -26,22 +34,10 @@
       <div id="buttons-view"></div>
     </div>
 
-
-    <div class = "row">
-      <div class = "col-md-9">
         <!-- Giphy will Get Dumped Dere -->
           <div class = "row">
               <div id="giphy-view"></div>
           </div>
-      </div>
-
-      <div class = "col-md-3" id="search-area">
-        <form id="giphy-form">
-          <label for="giphy-input">Add an new giphy</label> <br>
-          <input type="text" id="giphy-input"><br> <br>
-          <!-- Button triggers new giphy to be added -->
-          <input id="add-giphy" type="submit" value="Submit">
-        </form>
       </div>
 
     </div>
