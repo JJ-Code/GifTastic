@@ -83,22 +83,3 @@ $('body').on('click', '.giphyImage', function() {
     }
 
 });
-
-
-
-
-
-
-
-
-
-
-// //Animate images when clicked
-// $('.giphyImage').on("click", function() {
-//   var currentState = $(this).attr("data-state")
-//   var newState = (currentState === 'still') ? 'animate' : 'still'
-//   var imageUrl = $(this).attr("data-" + newState)
-//   $(this).attr("src", imageUrl)
-//   $(this).attr("data-state", newState)
-//     console.log('synchronous')
-// })
