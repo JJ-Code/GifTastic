@@ -30,13 +30,14 @@ renderButtons();
 
 
 // Generating images when buttons are clicked
-$(".giphy").on("click", function() {
+$(document).on('click', '.giphy', function() {
 $('#giphy-view').empty();
 var giphy = $(this).attr("data-name");
   // Constructing a queryURL using the giphy name
 var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
     giphy + "&api_key=dc6zaTOxFJmzC&limit=12";
 //Performing an AJAX request to Giphy API
+console.log('clicked');
 $.ajax({
     url: queryURL,
     method: "GET"
