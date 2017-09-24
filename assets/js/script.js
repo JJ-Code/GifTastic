@@ -21,10 +21,13 @@ $('#add-giphy').on('click', function(event){
   var giphy = $('#giphy-input').val().trim();
   giphys.push(giphy);
   renderButtons();
+  //clears search after it has been submitted.
+  $('#giphy-input').val("");
 })
 
 //Evoking renderButtons function
 renderButtons();
+
 
 
 
